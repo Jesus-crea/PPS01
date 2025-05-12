@@ -2,7 +2,7 @@ name: Escaneo de Gitleaks en cada push
 
 on:
   push:
-    branches: [main, master]
+    branches: [ master]
 
 jobs:
   gitleaks-scan:
